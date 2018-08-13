@@ -1,4 +1,4 @@
-![Dashboard Experience](src/assets/images/Readme.svg)
+![Dashboard Experience](src/assets/images/DashboardExperience.png)
 
 Dashboard Experience
 =============
@@ -10,7 +10,7 @@ Dashboard Experience
   
 ## Front do projeto
 
-_Para o front-end do projeto foi utilizado o experience UI, meu framework com componentes simples e bonitos._
+_Para o front-end do projeto foi utilizado o *experience UI*, meu framework com componentes simples e bonitos._
 
 
 ## Servidor de desenvolvimento
