@@ -1,0 +1,25 @@
+.sidebar {
+	display: flex !important;
+    position: absolute !important;
+    top: 0;
+    background: #151A2E;
+    box-shadow: 40px 10px 13px -41px rgba(7, 7, 16, 0.92);
+    bottom: 0;
+    z-index: 1;
+    transform: translate3d(-217%, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    	section.recipiente-perfil {
+		    position: absolute;
+		    top: 59px;
+		    width: 85.5%;
+		    height: 14.5%;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    border-radius: 7px;
+		    background: #2A2D40;
+		}
+}
