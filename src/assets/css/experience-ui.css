@@ -545,6 +545,7 @@ menu {
 	opacity: 0.9;
 	margin: 0em !important;
 	vertical-align: top;
+	height: 1em;
 }
 
 
@@ -790,7 +791,7 @@ menu {
 	box-shadow: none;
 	transition: all ease-in 200ms;
     margin: 5px 0;
-    padding: 0em 1em;
+    padding: 0em;
     width: 2.7em;
     height: 2.7em;
 }

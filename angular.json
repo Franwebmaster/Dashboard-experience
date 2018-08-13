@@ -30,7 +30,9 @@
               "src/styles.scss",
               "src/assets/css/experience-ui.css"
             ],
-            "scripts": []
+            "scripts": [
+                "src/assets/js/feather.js"
+            ]
           },
           "configurations": {
             "production": {
