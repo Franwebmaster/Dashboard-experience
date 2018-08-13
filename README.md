@@ -8,6 +8,9 @@ Dashboard Experience
 
 	Este projeto foi gerado com [CLI Angular] versao 6.1.1
   
+## Tela de Login
+![Dashboard Experience](src/assets/images/DashboardExperience.png)
+  
 ## Front do projeto
 
 _Para o front-end do projeto foi utilizado o experience UI, meu framework com componentes simples e bonitos._
