@@ -1,0 +1,34 @@
+/*
+**
+**  Experience UI - 1
+**  https://bitbucket.org/frameworkexperience/experience-ui 
+**
+**
+*/
+
+
+//*********  Estilo da Main-bar
+
+
+.main-bar {
+    height: 43px;
+    display: -webkit-flex;
+    display: flex !important;
+    clear: both;
+    background: #2A2D40;
+    color: #9fa2b3;
+    overflow: hidden;
+    box-shadow: 0 1px 15px #10121f;
+
+    span.spacer {
+        flex: 1 1 auto;
+    }
+
+    section.perfil {
+        width: 30px;
+        height: 30px;
+        background: #3B4367;
+        margin: 6px 15px;
+        border-radius: 50%;
+    }
+}

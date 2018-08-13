@@ -720,12 +720,68 @@ menu {
 
 
 /***********************
+	Basico azul escuro
+************************/
+.io.buttons.basic-marine .button,
+.io.botoes.basic-marinho .button,
+.io.button.basic-marine,
+.io.botao.basico-marinho {
+	background:#3B4367;
+	color: #bdc0ce;
+	border:  1px solid #3B4367;
+}
+
+
+
+/***********************
+	Basico com sombra
+************************/
+.io.buttons.basic-marine.shadow .button,
+.io.botoes.basic-marinho.sombra .button,
+.io.button.basic-marine.shadow,
+.io.botao.basico-marinho.sombra {
+	box-shadow: 0px 7px 20px -5px #070910;
+}
+
+
+.io.buttons.basic-marine .button:hover,
+.io.butoes.basico-marinho .botao:hover,
+.io.button.basic-marine:hover,
+.io.botao.basico-marinho:hover {
+	border-color: #3B4367 ;
+	background-color: #2f3654 !important;
+	color: #dbdeea;
+}
+
+
+.io.buttons.basic-blue .button:focus,
+.io.butoes.basico-azul .botao:focus,
+.io.button.basic-blue:focus,
+.io.botao.basico-azul:focus {
+	border-color: #3B4367 ;
+	background-color: #3B4367 !important;
+	color: #dbdeea;
+}
+
+
+.io.buttons.basic-blue .button:active,
+.io.butoes.basico-azul .botao:active,
+.io.button.basic-blue:active,
+.io.botao.basico-azul:active {
+	border-color: #3B4367;
+    background-color: #3B4367 !important;
+    color: #e4e7ed !important;
+    box-shadow: 5px 5px 5px 0px rgba(9, 22, 35, 0.39) inset;
+}
+
+
+/***********************
 	Basico Transparent
 ************************/
 .io.botoes.basico-acao .botao,
 .io.botao.basico-acao {
 	background: transparent none !important;
-	color: rgba(5, 4, 4, 0.63) !important;
+	color: #A1A4B5 !important;
 	font-weight: normal;
 	font-size: 12px;
 	border-radius: 50%;
@@ -733,7 +789,10 @@ menu {
 	text-shadow: none !important;
 	box-shadow: none;
 	transition: all ease-in 200ms;
-    margin: 0 5px;
+    margin: 5px 0;
+    padding: 0em 1em;
+    width: 2.7em;
+    height: 2.7em;
 }
 
 .io.botoes.basico-acao {
