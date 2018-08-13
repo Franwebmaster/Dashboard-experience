@@ -10,7 +10,7 @@ Dashboard Experience
   
 ## Front do projeto
 
-//Para o front-end do projeto foi utilizado o experience UI, meu framework com componentes simples e bonitos. 
+_Para o front-end do projeto foi utilizado o experience UI, meu framework com componentes simples e bonitos._
 
 
 ## Servidor de desenvolvimento
