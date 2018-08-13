@@ -1,18 +1,26 @@
-# DashboardExperience
+![Dashboard Experience](src/assets/images/Readme.svg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+Dashboard Experience
+=============
 
-## Development server
+**Dasboard Experience** é um dashbaord minimalista, com uma interface amigável e pensado na usabilidade.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+	Este projeto foi gerado com [CLI Angular] versao 6.1.1
+  
+## Front do projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para o front-end do projeto foi utilizado o experience UI, meu framework com componentes simples e bonitos. 
+
+
+## Servidor de desenvolvimento
+
+Execute `ng serve` para um servidor dev. Navegue até `http: // localhost: 4200 /`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+BuildRun `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist /`. Use o sinalizador `--prod` para uma construção de produção.
 
 ## Running unit tests
 
@@ -22,6 +30,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
