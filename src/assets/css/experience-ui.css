@@ -1738,6 +1738,47 @@ menu {
 	transition: color 0.1s ease, border-color 0.1s ease;
 }
 
+.io.form input:not([type]),
+.io.formulario.marinho input:not([type]),
+.io.form input[type="date"],
+.io.formulario.marinho input[type="date"],
+.io.form input[type="datetime-local"],
+.io.formulario.marinho input[type="datetime-local"],
+.io.form input[type="email"],
+.io.formulario.marinho input[type="email"],
+.io.form input[type="number"],
+.io.formulario.marinho input[type="number"],
+.io.form input[type="password"],
+.io.formulario.marinho input[type="password"],
+.io.form input[type="search"],
+.io.formulario.marinho input[type="search"],
+.io.form input[type="tel"],
+.io.formulario.marinho input[type="tel"],
+.io.form input[type="time"],
+.io.formulario.marinho input[type="time"],
+.io.form input[type="text"],
+.io.formulario.marinho input[type="text"],
+.io.form input[type="file"],
+.io.formulario.marinho input[type="file"],
+.io.form input[type="url"]
+.io.formulario.marinho input[type="url"] {
+	font-family: Roboto, sans-serif, 'Lato';
+	margin: 0em;
+	outline: none;
+	-webkit-appearance: none;
+	tap-highlight-color: rgba(34, 36, 38, 0.15);
+	line-height: 1.21428571em;
+	padding: 0.67857143em 1em;
+	font-size: .83657143em;
+	background: #3b4367;
+	border: 1px solid rgba(34, 36, 38, 0.15);
+	color: rgb(42, 45, 64);
+	border-radius: 0.28571429rem;
+	box-shadow: 0em 0em 0em 0em transparent inset;
+	-webkit-transition: color 0.1s ease, border-color 0.1s ease;
+	transition: color 0.1s ease, border-color 0.1s ease;
+}
+
 .io.form textarea,
 .io.formulario textarea {
 	margin: 0em;
@@ -1851,6 +1892,37 @@ menu {
 	border-color: #ADD6F8;
 	border-radius: 0.28571429rem;
 	background: #fff;
+	box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
+}
+
+
+.io.form input:not([type]):focus,
+.io.formulario.marinho input:not([type]):focus,
+.io.form input[type="date"]:focus,
+.io.formulario.marinho input[type="date"]:focus,
+.io.form input[type="datetime-local"]:focus,
+.io.form input[type="email"]:focus,
+.io.formulario.marinho input[type="email"]:focus,
+.io.form input[type="number"]:focus,
+.io.formulario.marinho input[type="number"]:focus,
+.io.form input[type="password"]:focus,
+.io.formulario.marinho input[type="password"]:focus,
+.io.form input[type="search"]:focus,
+.io.formulario.marinho input[type="search"]:focus,
+.io.form input[type="tel"]:focus,
+.io.formulario.marinho input[type="tel"]:focus,
+.io.form input[type="time"]:focus,
+.io.formulario.marinho input[type="time"]:focus,
+.io.form input[type="text"]:focus,
+.io.formulario.marinho input[type="text"]:focus,
+.io.form input[type="file"]:focus,
+.io.formulario.marinho input[type="file"]:focus,
+.io.form input[type="url"]:focus,
+.io.formulario.marinho input[type="url"]:focus{
+	color: rgba(0, 0, 0, 0.95);
+	border-color: #363d5c;
+	border-radius: 0.28571429rem;
+	background: #2a2d40;
 	box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
 
