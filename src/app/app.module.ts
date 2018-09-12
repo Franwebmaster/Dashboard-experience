@@ -7,6 +7,7 @@ import { LoginComponent } from './sistema/login/login.component';
 import { PanelComponent } from './sistema/panel/panel.component';
 import { MainbarComponent } from './sistema/panel/mainbar/mainbar.component';
 import { SidebarComponent } from './sistema/panel/sidebar/sidebar.component';
+import { ButtonComponent } from './sistema/button/button.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidebarComponent } from './sistema/panel/sidebar/sidebar.component';
     LoginComponent,
     SidebarComponent,
     MainbarComponent,
-    PanelComponent
+    PanelComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
